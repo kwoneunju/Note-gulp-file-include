@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input {
+    border: 0;
+}
+fieldset {
+    width: 100%;
+}
+button, select {
+    border: 0;
+    background: 0;
+}
+li, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.blind {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+}
